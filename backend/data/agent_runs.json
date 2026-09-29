@@ -1,0 +1,2682 @@
+[
+  {
+    "id": "run-89f958459d1e",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.640099Z",
+    "completed_at": "2026-09-29T13:54:12.640099Z",
+    "duration_ms": 18.76,
+    "input_id": "evt-b069299cc1f5",
+    "output": "id='evt-b069299cc1f5' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 12, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-0abb9249757e",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.641484Z",
+    "completed_at": "2026-09-29T13:54:12.641484Z",
+    "duration_ms": 0.92,
+    "input_id": "evt-b069299cc1f5",
+    "output": "None"
+  },
+  {
+    "id": "run-2edfb48b13cb",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.643945Z",
+    "completed_at": "2026-09-29T13:54:12.643945Z",
+    "duration_ms": 0.89,
+    "input_id": "evt-ac892a612e94",
+    "output": "id='evt-ac892a612e94' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 13, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-821df7cfc92c",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.644946Z",
+    "completed_at": "2026-09-29T13:54:12.644946Z",
+    "duration_ms": 0.05,
+    "input_id": "evt-ac892a612e94",
+    "output": "None"
+  },
+  {
+    "id": "run-7ddc99c99889",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.647464Z",
+    "completed_at": "2026-09-29T13:54:12.647464Z",
+    "duration_ms": 1.08,
+    "input_id": "evt-4ee5507766b8",
+    "output": "id='evt-4ee5507766b8' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 14, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-c060ce7bb1af",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.649616Z",
+    "completed_at": "2026-09-29T13:54:12.649616Z",
+    "duration_ms": 0.03,
+    "input_id": "evt-4ee5507766b8",
+    "output": "None"
+  },
+  {
+    "id": "run-8c62c186b65d",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.650616Z",
+    "completed_at": "2026-09-29T13:54:12.650616Z",
+    "duration_ms": 0.8,
+    "input_id": "evt-837168e72da4",
+    "output": "id='evt-837168e72da4' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 15, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-a7b4998bbe00",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.652615Z",
+    "completed_at": "2026-09-29T13:54:12.652615Z",
+    "duration_ms": 0.04,
+    "input_id": "evt-837168e72da4",
+    "output": "None"
+  },
+  {
+    "id": "run-ccc51e0879a0",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.653632Z",
+    "completed_at": "2026-09-29T13:54:12.653632Z",
+    "duration_ms": 0.77,
+    "input_id": "evt-2af239e70ae5",
+    "output": "id='evt-2af239e70ae5' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 16, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-04c375cd1c8c",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.655636Z",
+    "completed_at": "2026-09-29T13:54:12.655636Z",
+    "duration_ms": 0.04,
+    "input_id": "evt-2af239e70ae5",
+    "output": "None"
+  },
+  {
+    "id": "run-08ec987974d0",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.657636Z",
+    "completed_at": "2026-09-29T13:54:12.657636Z",
+    "duration_ms": 1.14,
+    "input_id": "evt-1244fe747a2f",
+    "output": "id='evt-1244fe747a2f' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 17, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-e6b6a213dd97",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.660064Z",
+    "completed_at": "2026-09-29T13:54:12.660064Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-1244fe747a2f",
+    "output": "None"
+  },
+  {
+    "id": "run-4ab7e918c98d",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.662352Z",
+    "completed_at": "2026-09-29T13:54:12.662352Z",
+    "duration_ms": 1.34,
+    "input_id": "evt-ab1370609557",
+    "output": "id='evt-ab1370609557' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 18, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-1201165e4041",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.663384Z",
+    "completed_at": "2026-09-29T13:54:12.663384Z",
+    "duration_ms": 0.03,
+    "input_id": "evt-ab1370609557",
+    "output": "None"
+  },
+  {
+    "id": "run-51f805f95d6f",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.666936Z",
+    "completed_at": "2026-09-29T13:54:12.666936Z",
+    "duration_ms": 1.22,
+    "input_id": "evt-e691960eb4da",
+    "output": "id='evt-e691960eb4da' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 19, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-d7c727bf670c",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.666936Z",
+    "completed_at": "2026-09-29T13:54:12.666936Z",
+    "duration_ms": 0.04,
+    "input_id": "evt-e691960eb4da",
+    "output": "None"
+  },
+  {
+    "id": "run-79d22887755a",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.670484Z",
+    "completed_at": "2026-09-29T13:54:12.670484Z",
+    "duration_ms": 1.08,
+    "input_id": "evt-bc84bc93b425",
+    "output": "id='evt-bc84bc93b425' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 20, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-8b4643c5ab1e",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.671509Z",
+    "completed_at": "2026-09-29T13:54:12.671509Z",
+    "duration_ms": 0.03,
+    "input_id": "evt-bc84bc93b425",
+    "output": "None"
+  },
+  {
+    "id": "run-6fa2d3653694",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.674550Z",
+    "completed_at": "2026-09-29T13:54:12.674550Z",
+    "duration_ms": 1.1,
+    "input_id": "evt-aaac679cb53f",
+    "output": "id='evt-aaac679cb53f' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 21, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-8fa982419999",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.675530Z",
+    "completed_at": "2026-09-29T13:54:12.675530Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-aaac679cb53f",
+    "output": "None"
+  },
+  {
+    "id": "run-3da0ed2143db",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.682570Z",
+    "completed_at": "2026-09-29T13:54:12.682570Z",
+    "duration_ms": 1.52,
+    "input_id": "evt-a095b69a6510",
+    "output": "id='evt-a095b69a6510' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 22, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-1f809620ed0e",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.683573Z",
+    "completed_at": "2026-09-29T13:54:12.683573Z",
+    "duration_ms": 0.03,
+    "input_id": "evt-a095b69a6510",
+    "output": "None"
+  },
+  {
+    "id": "run-b9958d27e2d9",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.685765Z",
+    "completed_at": "2026-09-29T13:54:12.685765Z",
+    "duration_ms": 1.18,
+    "input_id": "evt-542d3894f688",
+    "output": "id='evt-542d3894f688' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 23, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-daf97dbfb4e9",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.686785Z",
+    "completed_at": "2026-09-29T13:54:12.686785Z",
+    "duration_ms": 0.05,
+    "input_id": "evt-542d3894f688",
+    "output": "None"
+  },
+  {
+    "id": "run-b15ebf054ae6",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.690977Z",
+    "completed_at": "2026-09-29T13:54:12.690977Z",
+    "duration_ms": 1.49,
+    "input_id": "evt-58b00d239ff3",
+    "output": "id='evt-58b00d239ff3' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 24, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-a1000860d11c",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.691994Z",
+    "completed_at": "2026-09-29T13:54:12.691994Z",
+    "duration_ms": 0.05,
+    "input_id": "evt-58b00d239ff3",
+    "output": "None"
+  },
+  {
+    "id": "run-f654f361c770",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.694979Z",
+    "completed_at": "2026-09-29T13:54:12.694979Z",
+    "duration_ms": 1.05,
+    "input_id": "evt-1a681fdfd10d",
+    "output": "id='evt-1a681fdfd10d' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 25, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-2675a1ae3644",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.696954Z",
+    "completed_at": "2026-09-29T13:54:12.696954Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-1a681fdfd10d",
+    "output": "None"
+  },
+  {
+    "id": "run-47a485a45345",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.698967Z",
+    "completed_at": "2026-09-29T13:54:12.698967Z",
+    "duration_ms": 0.94,
+    "input_id": "evt-2f188d845fa1",
+    "output": "id='evt-2f188d845fa1' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 26, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-731e4da84977",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.701541Z",
+    "completed_at": "2026-09-29T13:54:12.701541Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-2f188d845fa1",
+    "output": "None"
+  },
+  {
+    "id": "run-f4f81888f29f",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.704526Z",
+    "completed_at": "2026-09-29T13:54:12.704526Z",
+    "duration_ms": 0.98,
+    "input_id": "evt-3f2e6a7f0c53",
+    "output": "id='evt-3f2e6a7f0c53' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 27, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-d8c17067e517",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.705529Z",
+    "completed_at": "2026-09-29T13:54:12.705529Z",
+    "duration_ms": 0.04,
+    "input_id": "evt-3f2e6a7f0c53",
+    "output": "None"
+  },
+  {
+    "id": "run-0cb842cf0453",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.709502Z",
+    "completed_at": "2026-09-29T13:54:12.709502Z",
+    "duration_ms": 1.46,
+    "input_id": "evt-9149e7e1f5c0",
+    "output": "id='evt-9149e7e1f5c0' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 28, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-65c0bbc84456",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.712034Z",
+    "completed_at": "2026-09-29T13:54:12.712034Z",
+    "duration_ms": 0.05,
+    "input_id": "evt-9149e7e1f5c0",
+    "output": "None"
+  },
+  {
+    "id": "run-a73e0b65ff73",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.714243Z",
+    "completed_at": "2026-09-29T13:54:12.714243Z",
+    "duration_ms": 1.36,
+    "input_id": "evt-2713870c71fa",
+    "output": "id='evt-2713870c71fa' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 29, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-8aba99fec936",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.716581Z",
+    "completed_at": "2026-09-29T13:54:12.716581Z",
+    "duration_ms": 0.04,
+    "input_id": "evt-2713870c71fa",
+    "output": "None"
+  },
+  {
+    "id": "run-5d9c02f68fb5",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.719580Z",
+    "completed_at": "2026-09-29T13:54:12.719580Z",
+    "duration_ms": 1.46,
+    "input_id": "evt-c5c9811dd114",
+    "output": "id='evt-c5c9811dd114' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 30, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-6b9a99875300",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.721580Z",
+    "completed_at": "2026-09-29T13:54:12.721580Z",
+    "duration_ms": 0.09,
+    "input_id": "evt-c5c9811dd114",
+    "output": "None"
+  },
+  {
+    "id": "run-e0ec5a809b5d",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.726108Z",
+    "completed_at": "2026-09-29T13:54:12.726108Z",
+    "duration_ms": 1.44,
+    "input_id": "evt-7a6f0c2f423d",
+    "output": "id='evt-7a6f0c2f423d' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 31, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-441a4b08a2fc",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.728126Z",
+    "completed_at": "2026-09-29T13:54:12.728126Z",
+    "duration_ms": 0.11,
+    "input_id": "evt-7a6f0c2f423d",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-98ddfef8ff90",
+    "agent": "Threat Hunting Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.730106Z",
+    "completed_at": "2026-09-29T13:54:12.730106Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-7a6f0c2f423d",
+    "output": "(['Historical search found 20 events from 185.220.101.77.', '20 events are security-relevant and form an escalation timeline.'], [SecurityEvent(id='evt-b069299cc1f5', timestamp=datetime.datetime(2026, 9, 29, 13, 54, 12, 619315, tzinfo=TzInf"
+  },
+  {
+    "id": "run-ab83d45202b7",
+    "agent": "Risk Assessment Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.731131Z",
+    "completed_at": "2026-09-29T13:54:12.731131Z",
+    "duration_ms": 0.08,
+    "input_id": "evt-7a6f0c2f423d",
+    "output": "score=78 level='HIGH' factors=[{'factor': '20 repeated failed logins', 'weight': 38}, {'factor': 'Credential attack pattern', 'weight': 22}, {'factor': 'Privileged target account', 'weight': 18}]"
+  },
+  {
+    "id": "run-85ed3fad75b3",
+    "agent": "Response Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.734651Z",
+    "completed_at": "2026-09-29T13:54:12.734651Z",
+    "duration_ms": 0.07,
+    "input_id": "evt-7a6f0c2f423d",
+    "output": "id='rsp-71da0ca41420' action='BLOCK_IP' target='185.220.101.77' reason='HIGH BRUTE_FORCE incident' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 12, 734651, tzinfo=datetime.timezone.utc) status='simulated' mode='simulation'"
+  },
+  {
+    "id": "run-8ca565839e6b",
+    "agent": "Report Generation Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.737109Z",
+    "completed_at": "2026-09-29T13:54:12.737109Z",
+    "duration_ms": 0.03,
+    "input_id": "INC-ADE42694",
+    "output": "{'id': 'RPT-ADE42694', 'incident_id': 'INC-ADE42694', 'generated_at': datetime.datetime(2026, 9, 29, 13, 54, 12, 736061, tzinfo=datetime.timezone.utc), 'summary': 'Brute Force from 185.220.101.77 was assessed as HIGH risk and block ip.', 'h"
+  },
+  {
+    "id": "run-b47a2e0e23a0",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.751265Z",
+    "completed_at": "2026-09-29T13:54:12.751265Z",
+    "duration_ms": 1.56,
+    "input_id": "evt-ec08fe0653be",
+    "output": "id='evt-ec08fe0653be' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 32, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-585fd1823c25",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.755001Z",
+    "completed_at": "2026-09-29T13:54:12.755001Z",
+    "duration_ms": 0.09,
+    "input_id": "evt-ec08fe0653be",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-c30f0cbe3095",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.758969Z",
+    "completed_at": "2026-09-29T13:54:12.758969Z",
+    "duration_ms": 1.47,
+    "input_id": "evt-217a1bfbfa4a",
+    "output": "id='evt-217a1bfbfa4a' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 33, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-69e119badde9",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.759985Z",
+    "completed_at": "2026-09-29T13:54:12.759985Z",
+    "duration_ms": 0.05,
+    "input_id": "evt-217a1bfbfa4a",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-0dc81be5407e",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.766581Z",
+    "completed_at": "2026-09-29T13:54:12.766581Z",
+    "duration_ms": 1.64,
+    "input_id": "evt-954515f8b4dc",
+    "output": "id='evt-954515f8b4dc' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 34, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-a550992b4b1a",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.767831Z",
+    "completed_at": "2026-09-29T13:54:12.767831Z",
+    "duration_ms": 0.07,
+    "input_id": "evt-954515f8b4dc",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-ce2c0731362f",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.771135Z",
+    "completed_at": "2026-09-29T13:54:12.771135Z",
+    "duration_ms": 1.63,
+    "input_id": "evt-b8fdb42a51c9",
+    "output": "id='evt-b8fdb42a51c9' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 35, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-73bd11af7f3a",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.774903Z",
+    "completed_at": "2026-09-29T13:54:12.774903Z",
+    "duration_ms": 0.09,
+    "input_id": "evt-b8fdb42a51c9",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-f4faa5389422",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.778996Z",
+    "completed_at": "2026-09-29T13:54:12.778996Z",
+    "duration_ms": 1.3,
+    "input_id": "evt-425c497a9252",
+    "output": "id='evt-425c497a9252' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 36, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-e59945b70ecb",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.780993Z",
+    "completed_at": "2026-09-29T13:54:12.780993Z",
+    "duration_ms": 0.05,
+    "input_id": "evt-425c497a9252",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-07444979d1f9",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.784203Z",
+    "completed_at": "2026-09-29T13:54:12.784203Z",
+    "duration_ms": 1.25,
+    "input_id": "evt-2024ac9817dd",
+    "output": "id='evt-2024ac9817dd' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 37, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-dca6e493ed77",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.786742Z",
+    "completed_at": "2026-09-29T13:54:12.786742Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-2024ac9817dd",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-54c0e4504527",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.790258Z",
+    "completed_at": "2026-09-29T13:54:12.790258Z",
+    "duration_ms": 1.25,
+    "input_id": "evt-c74e9fd48bd5",
+    "output": "id='evt-c74e9fd48bd5' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 38, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-6d98533161f0",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.792399Z",
+    "completed_at": "2026-09-29T13:54:12.792399Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-c74e9fd48bd5",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-a034fde9b370",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.798907Z",
+    "completed_at": "2026-09-29T13:54:12.798907Z",
+    "duration_ms": 1.54,
+    "input_id": "evt-7fe92057e010",
+    "output": "id='evt-7fe92057e010' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 39, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-67aa0d809acf",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.800891Z",
+    "completed_at": "2026-09-29T13:54:12.800891Z",
+    "duration_ms": 0.09,
+    "input_id": "evt-7fe92057e010",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-629fb6e66f58",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.805890Z",
+    "completed_at": "2026-09-29T13:54:12.805890Z",
+    "duration_ms": 3.04,
+    "input_id": "evt-67b7104f349b",
+    "output": "id='evt-67b7104f349b' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 40, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-0714dabe5b2d",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.808418Z",
+    "completed_at": "2026-09-29T13:54:12.808418Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-67b7104f349b",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-704a159f2104",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.811488Z",
+    "completed_at": "2026-09-29T13:54:12.811488Z",
+    "duration_ms": 1.29,
+    "input_id": "evt-9e0e2e484f8f",
+    "output": "id='evt-9e0e2e484f8f' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 41, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-0263b9a47392",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.813575Z",
+    "completed_at": "2026-09-29T13:54:12.813575Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-9e0e2e484f8f",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-22116b0c1f27",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.817556Z",
+    "completed_at": "2026-09-29T13:54:12.817556Z",
+    "duration_ms": 1.68,
+    "input_id": "evt-ca89a0f70a9f",
+    "output": "id='evt-ca89a0f70a9f' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 42, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-f56821864f7f",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.819782Z",
+    "completed_at": "2026-09-29T13:54:12.819782Z",
+    "duration_ms": 0.12,
+    "input_id": "evt-ca89a0f70a9f",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-3f71118394f8",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.825566Z",
+    "completed_at": "2026-09-29T13:54:12.825566Z",
+    "duration_ms": 2.31,
+    "input_id": "evt-14ef20572671",
+    "output": "id='evt-14ef20572671' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 43, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-0891867b2f8e",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.828683Z",
+    "completed_at": "2026-09-29T13:54:12.828683Z",
+    "duration_ms": 0.11,
+    "input_id": "evt-14ef20572671",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-bb90a823de91",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.833565Z",
+    "completed_at": "2026-09-29T13:54:12.833565Z",
+    "duration_ms": 1.72,
+    "input_id": "evt-729735041117",
+    "output": "id='evt-729735041117' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 44, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-c00d89df4bc4",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.836047Z",
+    "completed_at": "2026-09-29T13:54:12.836047Z",
+    "duration_ms": 0.13,
+    "input_id": "evt-729735041117",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-4be6919182e0",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.840526Z",
+    "completed_at": "2026-09-29T13:54:12.840526Z",
+    "duration_ms": 1.92,
+    "input_id": "evt-df7908c043c4",
+    "output": "id='evt-df7908c043c4' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 45, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-1b42b877be7f",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.843938Z",
+    "completed_at": "2026-09-29T13:54:12.843938Z",
+    "duration_ms": 0.13,
+    "input_id": "evt-df7908c043c4",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-046afaa6dfcc",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.848916Z",
+    "completed_at": "2026-09-29T13:54:12.848916Z",
+    "duration_ms": 1.94,
+    "input_id": "evt-93ac4a3d5b23",
+    "output": "id='evt-93ac4a3d5b23' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 46, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-e94e8e471b19",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.851015Z",
+    "completed_at": "2026-09-29T13:54:12.851015Z",
+    "duration_ms": 0.11,
+    "input_id": "evt-93ac4a3d5b23",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-51c340a945d1",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.855467Z",
+    "completed_at": "2026-09-29T13:54:12.855467Z",
+    "duration_ms": 1.81,
+    "input_id": "evt-7aa484cd2f1d",
+    "output": "id='evt-7aa484cd2f1d' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 47, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-587348c5c719",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.857732Z",
+    "completed_at": "2026-09-29T13:54:12.857732Z",
+    "duration_ms": 0.14,
+    "input_id": "evt-7aa484cd2f1d",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-3f82fd59c6cb",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.862461Z",
+    "completed_at": "2026-09-29T13:54:12.862461Z",
+    "duration_ms": 1.61,
+    "input_id": "evt-52a20e7b3495",
+    "output": "id='evt-52a20e7b3495' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 48, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-e71cdf8b09c9",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.865437Z",
+    "completed_at": "2026-09-29T13:54:12.865437Z",
+    "duration_ms": 0.09,
+    "input_id": "evt-52a20e7b3495",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-f501158ffba0",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.869440Z",
+    "completed_at": "2026-09-29T13:54:12.869440Z",
+    "duration_ms": 1.99,
+    "input_id": "evt-81c2fd0011b8",
+    "output": "id='evt-81c2fd0011b8' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 49, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-9135f2f5e3dc",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.873980Z",
+    "completed_at": "2026-09-29T13:54:12.873980Z",
+    "duration_ms": 0.11,
+    "input_id": "evt-81c2fd0011b8",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-5af5ee6d12b4",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.880981Z",
+    "completed_at": "2026-09-29T13:54:12.880981Z",
+    "duration_ms": 3.6,
+    "input_id": "evt-b1cafecd51b0",
+    "output": "id='evt-b1cafecd51b0' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 50, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-8e902721baec",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.884515Z",
+    "completed_at": "2026-09-29T13:54:12.884515Z",
+    "duration_ms": 0.15,
+    "input_id": "evt-b1cafecd51b0",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-a21bcef8dc53",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.891049Z",
+    "completed_at": "2026-09-29T13:54:12.891049Z",
+    "duration_ms": 2.22,
+    "input_id": "evt-5013b181ae17",
+    "output": "id='evt-5013b181ae17' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 51, 619315, tzinfo=datetime.timezone.utc) source_ip='185.220.101.77' destination_ip='10.20.0.10' destination_port=None event_type='LOGIN_FAILED' username='admin' service"
+  },
+  {
+    "id": "run-274ac85318e6",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:12.894591Z",
+    "completed_at": "2026-09-29T13:54:12.894591Z",
+    "duration_ms": 0.16,
+    "input_id": "evt-5013b181ae17",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-c661dcb2110e",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.822499Z",
+    "completed_at": "2026-09-29T13:54:50.822499Z",
+    "duration_ms": 4.13,
+    "input_id": "evt-23580dd0abc2",
+    "output": "id='evt-23580dd0abc2' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 50, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=21 event_type='PORT_PROBE' username=None service='edge-gat"
+  },
+  {
+    "id": "run-cc091415ae0a",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.828598Z",
+    "completed_at": "2026-09-29T13:54:50.828598Z",
+    "duration_ms": 0.07,
+    "input_id": "evt-23580dd0abc2",
+    "output": "None"
+  },
+  {
+    "id": "run-c272836cb669",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.837027Z",
+    "completed_at": "2026-09-29T13:54:50.837027Z",
+    "duration_ms": 2.96,
+    "input_id": "evt-2f8e62235c1a",
+    "output": "id='evt-2f8e62235c1a' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 51, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=22 event_type='PORT_PROBE' username=None service='edge-gat"
+  },
+  {
+    "id": "run-5dedeeaf50ea",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.842139Z",
+    "completed_at": "2026-09-29T13:54:50.842139Z",
+    "duration_ms": 0.09,
+    "input_id": "evt-2f8e62235c1a",
+    "output": "None"
+  },
+  {
+    "id": "run-83044728a20d",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.848569Z",
+    "completed_at": "2026-09-29T13:54:50.848569Z",
+    "duration_ms": 2.78,
+    "input_id": "evt-5480839fb9e3",
+    "output": "id='evt-5480839fb9e3' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 52, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=23 event_type='PORT_PROBE' username=None service='edge-gat"
+  },
+  {
+    "id": "run-56d576406315",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.852569Z",
+    "completed_at": "2026-09-29T13:54:50.852569Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-5480839fb9e3",
+    "output": "None"
+  },
+  {
+    "id": "run-4c2fdcd6ff4f",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.858732Z",
+    "completed_at": "2026-09-29T13:54:50.858732Z",
+    "duration_ms": 2.52,
+    "input_id": "evt-df3f429ad382",
+    "output": "id='evt-df3f429ad382' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 53, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=25 event_type='PORT_PROBE' username=None service='edge-gat"
+  },
+  {
+    "id": "run-febcf59b123a",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.861734Z",
+    "completed_at": "2026-09-29T13:54:50.861734Z",
+    "duration_ms": 0.05,
+    "input_id": "evt-df3f429ad382",
+    "output": "None"
+  },
+  {
+    "id": "run-1a86f2515ed4",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.867249Z",
+    "completed_at": "2026-09-29T13:54:50.867249Z",
+    "duration_ms": 2.13,
+    "input_id": "evt-360ce88dc935",
+    "output": "id='evt-360ce88dc935' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 54, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=53 event_type='PORT_PROBE' username=None service='edge-gat"
+  },
+  {
+    "id": "run-7c9dc2058f35",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.871713Z",
+    "completed_at": "2026-09-29T13:54:50.871713Z",
+    "duration_ms": 0.05,
+    "input_id": "evt-360ce88dc935",
+    "output": "None"
+  },
+  {
+    "id": "run-20a4b9265bd6",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.877304Z",
+    "completed_at": "2026-09-29T13:54:50.877304Z",
+    "duration_ms": 2.51,
+    "input_id": "evt-8b0b046f5fc8",
+    "output": "id='evt-8b0b046f5fc8' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 55, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=80 event_type='PORT_PROBE' username=None service='edge-gat"
+  },
+  {
+    "id": "run-26219498942d",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.880404Z",
+    "completed_at": "2026-09-29T13:54:50.880404Z",
+    "duration_ms": 0.04,
+    "input_id": "evt-8b0b046f5fc8",
+    "output": "None"
+  },
+  {
+    "id": "run-57dce66adf0b",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.885787Z",
+    "completed_at": "2026-09-29T13:54:50.885787Z",
+    "duration_ms": 1.85,
+    "input_id": "evt-2cd58733aced",
+    "output": "id='evt-2cd58733aced' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 56, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=110 event_type='PORT_PROBE' username=None service='edge-ga"
+  },
+  {
+    "id": "run-dd7298ebcf71",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.889310Z",
+    "completed_at": "2026-09-29T13:54:50.889310Z",
+    "duration_ms": 0.07,
+    "input_id": "evt-2cd58733aced",
+    "output": "None"
+  },
+  {
+    "id": "run-9867707ee1ff",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.895693Z",
+    "completed_at": "2026-09-29T13:54:50.895693Z",
+    "duration_ms": 2.26,
+    "input_id": "evt-0637f509243f",
+    "output": "id='evt-0637f509243f' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 57, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=443 event_type='PORT_PROBE' username=None service='edge-ga"
+  },
+  {
+    "id": "run-498553610857",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.900101Z",
+    "completed_at": "2026-09-29T13:54:50.900101Z",
+    "duration_ms": 0.05,
+    "input_id": "evt-0637f509243f",
+    "output": "None"
+  },
+  {
+    "id": "run-543e52c1b2b4",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.905095Z",
+    "completed_at": "2026-09-29T13:54:50.905095Z",
+    "duration_ms": 2.0,
+    "input_id": "evt-f8b5c95adc94",
+    "output": "id='evt-f8b5c95adc94' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 58, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=445 event_type='PORT_PROBE' username=None service='edge-ga"
+  },
+  {
+    "id": "run-d3c1836ab424",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.908098Z",
+    "completed_at": "2026-09-29T13:54:50.908098Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-f8b5c95adc94",
+    "output": "None"
+  },
+  {
+    "id": "run-618d8407392d",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.914989Z",
+    "completed_at": "2026-09-29T13:54:50.914989Z",
+    "duration_ms": 2.4,
+    "input_id": "evt-68417f4c35f7",
+    "output": "id='evt-68417f4c35f7' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 59, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=3306 event_type='PORT_PROBE' username=None service='edge-g"
+  },
+  {
+    "id": "run-2c0402efb1d3",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.919190Z",
+    "completed_at": "2026-09-29T13:54:50.919190Z",
+    "duration_ms": 0.08,
+    "input_id": "evt-68417f4c35f7",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-b025521fb48e",
+    "agent": "Threat Hunting Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.923329Z",
+    "completed_at": "2026-09-29T13:54:50.923329Z",
+    "duration_ms": 0.07,
+    "input_id": "evt-68417f4c35f7",
+    "output": "(['Historical search found 10 events from 45.83.64.19.', '10 events are security-relevant and form an escalation timeline.'], [SecurityEvent(id='evt-23580dd0abc2', timestamp=datetime.datetime(2026, 9, 29, 13, 54, 50, 818502, tzinfo=TzInfo(U"
+  },
+  {
+    "id": "run-a1fb735782cc",
+    "agent": "Risk Assessment Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.926314Z",
+    "completed_at": "2026-09-29T13:54:50.926314Z",
+    "duration_ms": 0.06,
+    "input_id": "evt-68417f4c35f7",
+    "output": "score=52 level='MEDIUM' factors=[{'factor': 'Rapid multi-port reconnaissance', 'weight': 34}, {'factor': 'Multiple exposed services targeted', 'weight': 18}]"
+  },
+  {
+    "id": "run-6d2bf8754998",
+    "agent": "Response Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.929316Z",
+    "completed_at": "2026-09-29T13:54:50.929316Z",
+    "duration_ms": 0.09,
+    "input_id": "evt-68417f4c35f7",
+    "output": "id='rsp-3894757df99c' action='BLOCK_IP' target='45.83.64.19' reason='MEDIUM PORT_SCAN incident' timestamp=datetime.datetime(2026, 9, 29, 13, 54, 50, 929316, tzinfo=datetime.timezone.utc) status='simulated' mode='simulation'"
+  },
+  {
+    "id": "run-f42f9bca1fd4",
+    "agent": "Report Generation Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.932839Z",
+    "completed_at": "2026-09-29T13:54:50.932839Z",
+    "duration_ms": 0.02,
+    "input_id": "INC-D5AD6F19",
+    "output": "{'id': 'RPT-D5AD6F19', 'incident_id': 'INC-D5AD6F19', 'generated_at': datetime.datetime(2026, 9, 29, 13, 54, 50, 932839, tzinfo=datetime.timezone.utc), 'summary': 'Port Scan from 45.83.64.19 was assessed as MEDIUM risk and block ip.', 'huma"
+  },
+  {
+    "id": "run-2969d1ad10fb",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.941401Z",
+    "completed_at": "2026-09-29T13:54:50.941401Z",
+    "duration_ms": 2.29,
+    "input_id": "evt-97e0b7d6bcd0",
+    "output": "id='evt-97e0b7d6bcd0' timestamp=datetime.datetime(2026, 9, 29, 13, 55, 0, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=5432 event_type='PORT_PROBE' username=None service='edge-ga"
+  },
+  {
+    "id": "run-73ac0e2b594d",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.945779Z",
+    "completed_at": "2026-09-29T13:54:50.945779Z",
+    "duration_ms": 0.08,
+    "input_id": "evt-97e0b7d6bcd0",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-65511473c6d2",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.952321Z",
+    "completed_at": "2026-09-29T13:54:50.952321Z",
+    "duration_ms": 2.51,
+    "input_id": "evt-a15b7709e998",
+    "output": "id='evt-a15b7709e998' timestamp=datetime.datetime(2026, 9, 29, 13, 55, 1, 818502, tzinfo=datetime.timezone.utc) source_ip='45.83.64.19' destination_ip='10.20.0.10' destination_port=8080 event_type='PORT_PROBE' username=None service='edge-ga"
+  },
+  {
+    "id": "run-cc89e9ac0070",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:54:50.956651Z",
+    "completed_at": "2026-09-29T13:54:50.956651Z",
+    "duration_ms": 0.07,
+    "input_id": "evt-a15b7709e998",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-f976ebd8e95a",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:56:10.922151Z",
+    "completed_at": "2026-09-29T13:56:10.922151Z",
+    "duration_ms": 16.17,
+    "input_id": "evt-e081d1382217",
+    "output": "Normalized CONTAINER_SUSPICIOUS_ACTIVITY"
+  },
+  {
+    "id": "run-46aed865e1a9",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:56:10.932088Z",
+    "completed_at": "2026-09-29T13:56:10.932088Z",
+    "duration_ms": 5.08,
+    "input_id": "evt-e081d1382217",
+    "output": "CONTAINER_COMPROMISE"
+  },
+  {
+    "id": "run-4f67baef481f",
+    "agent": "Threat Hunting Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:56:10.936425Z",
+    "completed_at": "2026-09-29T13:56:10.936425Z",
+    "duration_ms": 0.05,
+    "input_id": "evt-e081d1382217",
+    "output": "1 related events found"
+  },
+  {
+    "id": "run-f25bfae05765",
+    "agent": "Risk Assessment Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:56:10.940582Z",
+    "completed_at": "2026-09-29T13:56:10.940582Z",
+    "duration_ms": 0.08,
+    "input_id": "evt-e081d1382217",
+    "output": "CRITICAL risk: 81/100"
+  },
+  {
+    "id": "run-82be05cb8e3e",
+    "agent": "Response Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:56:10.945926Z",
+    "completed_at": "2026-09-29T13:56:10.945926Z",
+    "duration_ms": 0.13,
+    "input_id": "evt-e081d1382217",
+    "output": "QUARANTINE_CONTAINER"
+  },
+  {
+    "id": "run-e4f7e0d7f0f9",
+    "agent": "Report Generation Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T13:56:10.950897Z",
+    "completed_at": "2026-09-29T13:56:10.950897Z",
+    "duration_ms": 0.04,
+    "input_id": "INC-CB96D5D2",
+    "output": "Structured report generated"
+  },
+  {
+    "id": "run-f54af0fc3360",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.108772Z",
+    "completed_at": "2026-09-29T14:00:35.108772Z",
+    "duration_ms": 23.26,
+    "input_id": "evt-4d41ab9ef781",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-231dfc04fa04",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.124736Z",
+    "completed_at": "2026-09-29T14:00:35.124736Z",
+    "duration_ms": 1.6,
+    "input_id": "evt-4d41ab9ef781",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-2649cc6ee0b4",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.131107Z",
+    "completed_at": "2026-09-29T14:00:35.131107Z",
+    "duration_ms": 2.39,
+    "input_id": "evt-a726839a33d0",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-652b524e52db",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.135382Z",
+    "completed_at": "2026-09-29T14:00:35.135382Z",
+    "duration_ms": 0.43,
+    "input_id": "evt-a726839a33d0",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-a55f2463a2ab",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.141027Z",
+    "completed_at": "2026-09-29T14:00:35.141027Z",
+    "duration_ms": 2.3,
+    "input_id": "evt-9a63a016d8b8",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-f3434c7cc242",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.144999Z",
+    "completed_at": "2026-09-29T14:00:35.144999Z",
+    "duration_ms": 0.47,
+    "input_id": "evt-9a63a016d8b8",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-e7a72d4f0102",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.152242Z",
+    "completed_at": "2026-09-29T14:00:35.152242Z",
+    "duration_ms": 2.24,
+    "input_id": "evt-350cdae4e789",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-202202553a91",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.156565Z",
+    "completed_at": "2026-09-29T14:00:35.156565Z",
+    "duration_ms": 0.05,
+    "input_id": "evt-350cdae4e789",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-c54afff4a312",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.162101Z",
+    "completed_at": "2026-09-29T14:00:35.162101Z",
+    "duration_ms": 2.64,
+    "input_id": "evt-d6a2bac92c91",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-b73194ccc331",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.168099Z",
+    "completed_at": "2026-09-29T14:00:35.168099Z",
+    "duration_ms": 1.83,
+    "input_id": "evt-d6a2bac92c91",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-4ba8c8bf1601",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.174774Z",
+    "completed_at": "2026-09-29T14:00:35.174774Z",
+    "duration_ms": 2.34,
+    "input_id": "evt-707d49f31a64",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-6b8b413e7747",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.180320Z",
+    "completed_at": "2026-09-29T14:00:35.180320Z",
+    "duration_ms": 1.09,
+    "input_id": "evt-707d49f31a64",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-b80c8782c57a",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.186777Z",
+    "completed_at": "2026-09-29T14:00:35.186777Z",
+    "duration_ms": 2.48,
+    "input_id": "evt-7f67f8b5b667",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-f78fef96bacd",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.192547Z",
+    "completed_at": "2026-09-29T14:00:35.192547Z",
+    "duration_ms": 1.37,
+    "input_id": "evt-7f67f8b5b667",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-2cfa6ccde648",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.199432Z",
+    "completed_at": "2026-09-29T14:00:35.199432Z",
+    "duration_ms": 3.43,
+    "input_id": "evt-2287bb503728",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-cf80e51548f0",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.205041Z",
+    "completed_at": "2026-09-29T14:00:35.205041Z",
+    "duration_ms": 1.24,
+    "input_id": "evt-2287bb503728",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-24b3b32bdb69",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.211040Z",
+    "completed_at": "2026-09-29T14:00:35.211040Z",
+    "duration_ms": 2.5,
+    "input_id": "evt-b85209bf4e4f",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-e1b645bfc34d",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.216944Z",
+    "completed_at": "2026-09-29T14:00:35.216944Z",
+    "duration_ms": 0.94,
+    "input_id": "evt-b85209bf4e4f",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-ebdf67408997",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.222966Z",
+    "completed_at": "2026-09-29T14:00:35.222966Z",
+    "duration_ms": 2.69,
+    "input_id": "evt-2afcab249686",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-b8036b5b4a3a",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.256161Z",
+    "completed_at": "2026-09-29T14:00:35.256161Z",
+    "duration_ms": 0.83,
+    "input_id": "evt-2afcab249686",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-e016ae7b7585",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.263134Z",
+    "completed_at": "2026-09-29T14:00:35.263134Z",
+    "duration_ms": 2.22,
+    "input_id": "evt-672cd12caaf4",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-d13799c820d1",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.267681Z",
+    "completed_at": "2026-09-29T14:00:35.267681Z",
+    "duration_ms": 0.08,
+    "input_id": "evt-672cd12caaf4",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-f240b7016bda",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.275082Z",
+    "completed_at": "2026-09-29T14:00:35.275082Z",
+    "duration_ms": 3.1,
+    "input_id": "evt-393592c7948b",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-6e4c7ef5e6e2",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:35.278630Z",
+    "completed_at": "2026-09-29T14:00:35.278630Z",
+    "duration_ms": 0.11,
+    "input_id": "evt-393592c7948b",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-4b8bf9e56959",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:53.191165Z",
+    "completed_at": "2026-09-29T14:00:53.191165Z",
+    "duration_ms": 36.46,
+    "input_id": "evt-fc7d93be9d15",
+    "output": "Normalized CONTAINER_SUSPICIOUS_ACTIVITY"
+  },
+  {
+    "id": "run-58b02eb87274",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:53.195595Z",
+    "completed_at": "2026-09-29T14:00:53.195595Z",
+    "duration_ms": 0.08,
+    "input_id": "evt-fc7d93be9d15",
+    "output": "CONTAINER_COMPROMISE"
+  },
+  {
+    "id": "run-4f5c8cf9ba44",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:56.937886Z",
+    "completed_at": "2026-09-29T14:00:56.937886Z",
+    "duration_ms": 3.14,
+    "input_id": "evt-848f735444a9",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-effb688e43f2",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:56.944432Z",
+    "completed_at": "2026-09-29T14:00:56.944432Z",
+    "duration_ms": 0.12,
+    "input_id": "evt-848f735444a9",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-320e1433bd05",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:56.952979Z",
+    "completed_at": "2026-09-29T14:00:56.952979Z",
+    "duration_ms": 3.2,
+    "input_id": "evt-8125e7d9ae1b",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-d575ee26d81f",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:56.960976Z",
+    "completed_at": "2026-09-29T14:00:56.960976Z",
+    "duration_ms": 1.53,
+    "input_id": "evt-8125e7d9ae1b",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-b79921aa6a9b",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:56.968520Z",
+    "completed_at": "2026-09-29T14:00:56.968520Z",
+    "duration_ms": 3.19,
+    "input_id": "evt-0a539bacbd3f",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-f905d1499fcf",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:56.974064Z",
+    "completed_at": "2026-09-29T14:00:56.974064Z",
+    "duration_ms": 0.07,
+    "input_id": "evt-0a539bacbd3f",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-c1f8672f4e77",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:56.979624Z",
+    "completed_at": "2026-09-29T14:00:56.979624Z",
+    "duration_ms": 2.26,
+    "input_id": "evt-926bc8e37ddf",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-3e3370444ca3",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:56.984385Z",
+    "completed_at": "2026-09-29T14:00:56.984385Z",
+    "duration_ms": 0.12,
+    "input_id": "evt-926bc8e37ddf",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-68e203ad7a55",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:56.992417Z",
+    "completed_at": "2026-09-29T14:00:56.992417Z",
+    "duration_ms": 2.92,
+    "input_id": "evt-1077afd21d00",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-9ddc9b893570",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:56.996977Z",
+    "completed_at": "2026-09-29T14:00:56.996977Z",
+    "duration_ms": 0.12,
+    "input_id": "evt-1077afd21d00",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-f9b0d81b05a1",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.003278Z",
+    "completed_at": "2026-09-29T14:00:57.003278Z",
+    "duration_ms": 2.63,
+    "input_id": "evt-6f30e6fc68b7",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-53281ec80e16",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.011132Z",
+    "completed_at": "2026-09-29T14:00:57.011132Z",
+    "duration_ms": 0.66,
+    "input_id": "evt-6f30e6fc68b7",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-5e8157cf5509",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.019195Z",
+    "completed_at": "2026-09-29T14:00:57.019195Z",
+    "duration_ms": 3.68,
+    "input_id": "evt-79e9385b7c08",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-26247c244c0e",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.025201Z",
+    "completed_at": "2026-09-29T14:00:57.025201Z",
+    "duration_ms": 0.54,
+    "input_id": "evt-79e9385b7c08",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-5f49b4934a90",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.031265Z",
+    "completed_at": "2026-09-29T14:00:57.031265Z",
+    "duration_ms": 2.37,
+    "input_id": "evt-740a9b9364c2",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-244eb2ddaca2",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.035270Z",
+    "completed_at": "2026-09-29T14:00:57.035270Z",
+    "duration_ms": 0.14,
+    "input_id": "evt-740a9b9364c2",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-e2c16929928e",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.043432Z",
+    "completed_at": "2026-09-29T14:00:57.043432Z",
+    "duration_ms": 3.34,
+    "input_id": "evt-f3e4074978fd",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-470d16038640",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.050086Z",
+    "completed_at": "2026-09-29T14:00:57.050086Z",
+    "duration_ms": 0.15,
+    "input_id": "evt-f3e4074978fd",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-98fea3b2ef05",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.058181Z",
+    "completed_at": "2026-09-29T14:00:57.058181Z",
+    "duration_ms": 3.42,
+    "input_id": "evt-f80bb2f5b3a5",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-f14c703ebdec",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.064721Z",
+    "completed_at": "2026-09-29T14:00:57.064721Z",
+    "duration_ms": 0.15,
+    "input_id": "evt-f80bb2f5b3a5",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-3e8d50eba132",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.070413Z",
+    "completed_at": "2026-09-29T14:00:57.070413Z",
+    "duration_ms": 2.02,
+    "input_id": "evt-0623210aea74",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-152bd2ab4cf5",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.072577Z",
+    "completed_at": "2026-09-29T14:00:57.072577Z",
+    "duration_ms": 0.11,
+    "input_id": "evt-0623210aea74",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-7c6b4aec425d",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.082070Z",
+    "completed_at": "2026-09-29T14:00:57.082070Z",
+    "duration_ms": 3.41,
+    "input_id": "evt-2f1dc24475a3",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-f55374a029db",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.087142Z",
+    "completed_at": "2026-09-29T14:00:57.087142Z",
+    "duration_ms": 0.1,
+    "input_id": "evt-2f1dc24475a3",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-458b43d19091",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.095703Z",
+    "completed_at": "2026-09-29T14:00:57.095703Z",
+    "duration_ms": 3.59,
+    "input_id": "evt-840cb6376668",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-140b2557b806",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.102225Z",
+    "completed_at": "2026-09-29T14:00:57.102225Z",
+    "duration_ms": 0.12,
+    "input_id": "evt-840cb6376668",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-e48ce20edde9",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.111236Z",
+    "completed_at": "2026-09-29T14:00:57.111236Z",
+    "duration_ms": 3.85,
+    "input_id": "evt-41ddf46ebdf1",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-bdb56411e4a4",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.117956Z",
+    "completed_at": "2026-09-29T14:00:57.117956Z",
+    "duration_ms": 0.15,
+    "input_id": "evt-41ddf46ebdf1",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-a50f666fb273",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.124952Z",
+    "completed_at": "2026-09-29T14:00:57.124952Z",
+    "duration_ms": 2.83,
+    "input_id": "evt-263b9bfd0cec",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-4cae173dad20",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.130984Z",
+    "completed_at": "2026-09-29T14:00:57.130984Z",
+    "duration_ms": 0.09,
+    "input_id": "evt-263b9bfd0cec",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-d2c134fb3ddc",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.139518Z",
+    "completed_at": "2026-09-29T14:00:57.139518Z",
+    "duration_ms": 3.36,
+    "input_id": "evt-3cf664af0e94",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-0da1380f617c",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.147058Z",
+    "completed_at": "2026-09-29T14:00:57.147058Z",
+    "duration_ms": 0.73,
+    "input_id": "evt-3cf664af0e94",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-54ae12bad103",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.155993Z",
+    "completed_at": "2026-09-29T14:00:57.157028Z",
+    "duration_ms": 3.77,
+    "input_id": "evt-df67e9603f7f",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-df99666875ed",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.162479Z",
+    "completed_at": "2026-09-29T14:00:57.162479Z",
+    "duration_ms": 0.29,
+    "input_id": "evt-df67e9603f7f",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-b7801c43c980",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.170216Z",
+    "completed_at": "2026-09-29T14:00:57.170216Z",
+    "duration_ms": 2.95,
+    "input_id": "evt-03fe073a3050",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-a0af74d512ef",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.176544Z",
+    "completed_at": "2026-09-29T14:00:57.176544Z",
+    "duration_ms": 0.86,
+    "input_id": "evt-03fe073a3050",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-933f1b09c51b",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.186034Z",
+    "completed_at": "2026-09-29T14:00:57.186034Z",
+    "duration_ms": 3.55,
+    "input_id": "evt-a7ea1a773a44",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-6c641cee8ae9",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.192065Z",
+    "completed_at": "2026-09-29T14:00:57.192065Z",
+    "duration_ms": 0.16,
+    "input_id": "evt-a7ea1a773a44",
+    "output": "No threat detected"
+  },
+  {
+    "id": "run-8bc9aba86559",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.199037Z",
+    "completed_at": "2026-09-29T14:00:57.199037Z",
+    "duration_ms": 2.9,
+    "input_id": "evt-0bf453b25e75",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-106f2bddd552",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.205835Z",
+    "completed_at": "2026-09-29T14:00:57.205835Z",
+    "duration_ms": 0.26,
+    "input_id": "evt-0bf453b25e75",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-bdb29d100e34",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.213957Z",
+    "completed_at": "2026-09-29T14:00:57.213957Z",
+    "duration_ms": 2.76,
+    "input_id": "evt-864a7499fae8",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-94b809aa5f65",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.219645Z",
+    "completed_at": "2026-09-29T14:00:57.219645Z",
+    "duration_ms": 0.13,
+    "input_id": "evt-864a7499fae8",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-89141b89380c",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.225693Z",
+    "completed_at": "2026-09-29T14:00:57.225693Z",
+    "duration_ms": 2.74,
+    "input_id": "evt-6b960ea574fe",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-184557324e91",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.232212Z",
+    "completed_at": "2026-09-29T14:00:57.232212Z",
+    "duration_ms": 0.82,
+    "input_id": "evt-6b960ea574fe",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-059b318fc709",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.241420Z",
+    "completed_at": "2026-09-29T14:00:57.242401Z",
+    "duration_ms": 3.97,
+    "input_id": "evt-e785068ddfaf",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-28df3d378176",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.248389Z",
+    "completed_at": "2026-09-29T14:00:57.248389Z",
+    "duration_ms": 0.17,
+    "input_id": "evt-e785068ddfaf",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-ab229895dffd",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.254942Z",
+    "completed_at": "2026-09-29T14:00:57.254942Z",
+    "duration_ms": 2.53,
+    "input_id": "evt-f8ca5fd1a6ad",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-6c7c6c8b0f75",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.260457Z",
+    "completed_at": "2026-09-29T14:00:57.260457Z",
+    "duration_ms": 0.25,
+    "input_id": "evt-f8ca5fd1a6ad",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-e33c691aa841",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.267833Z",
+    "completed_at": "2026-09-29T14:00:57.267833Z",
+    "duration_ms": 2.33,
+    "input_id": "evt-faeb929da167",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-2ce0004b35b9",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.273383Z",
+    "completed_at": "2026-09-29T14:00:57.273383Z",
+    "duration_ms": 0.73,
+    "input_id": "evt-faeb929da167",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-efe88fee31c0",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.280398Z",
+    "completed_at": "2026-09-29T14:00:57.280398Z",
+    "duration_ms": 2.73,
+    "input_id": "evt-6971a9dc9a2e",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-93d99f89bcae",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.283985Z",
+    "completed_at": "2026-09-29T14:00:57.283985Z",
+    "duration_ms": 0.1,
+    "input_id": "evt-6971a9dc9a2e",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-a66700ea87bf",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.289971Z",
+    "completed_at": "2026-09-29T14:00:57.289971Z",
+    "duration_ms": 2.29,
+    "input_id": "evt-c1c600563b29",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-c115e7feed3f",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.294549Z",
+    "completed_at": "2026-09-29T14:00:57.294549Z",
+    "duration_ms": 0.18,
+    "input_id": "evt-c1c600563b29",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-b6d38b69f03f",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.302549Z",
+    "completed_at": "2026-09-29T14:00:57.302549Z",
+    "duration_ms": 2.74,
+    "input_id": "evt-e378537e8eea",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-6d3880eb73ec",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.307109Z",
+    "completed_at": "2026-09-29T14:00:57.307109Z",
+    "duration_ms": 0.19,
+    "input_id": "evt-e378537e8eea",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-e9d7c89e08c5",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.316192Z",
+    "completed_at": "2026-09-29T14:00:57.316192Z",
+    "duration_ms": 4.09,
+    "input_id": "evt-c3f26369f303",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-409ec5ee2b2a",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.321192Z",
+    "completed_at": "2026-09-29T14:00:57.321192Z",
+    "duration_ms": 0.11,
+    "input_id": "evt-c3f26369f303",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-e30d4bb041d0",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.327766Z",
+    "completed_at": "2026-09-29T14:00:57.327766Z",
+    "duration_ms": 3.87,
+    "input_id": "evt-0b245aa2f118",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-9bcbe81632fa",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.333310Z",
+    "completed_at": "2026-09-29T14:00:57.333310Z",
+    "duration_ms": 0.11,
+    "input_id": "evt-0b245aa2f118",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-003025071d11",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.340489Z",
+    "completed_at": "2026-09-29T14:00:57.340489Z",
+    "duration_ms": 3.51,
+    "input_id": "evt-611cf38c8415",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-692f5f4c9b11",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.346004Z",
+    "completed_at": "2026-09-29T14:00:57.346004Z",
+    "duration_ms": 0.23,
+    "input_id": "evt-611cf38c8415",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-01c63fc8a02e",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.353042Z",
+    "completed_at": "2026-09-29T14:00:57.353042Z",
+    "duration_ms": 2.45,
+    "input_id": "evt-31af94f89add",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-9b72e55a0c1a",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.357629Z",
+    "completed_at": "2026-09-29T14:00:57.357629Z",
+    "duration_ms": 0.23,
+    "input_id": "evt-31af94f89add",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-27c37b549e3a",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.364627Z",
+    "completed_at": "2026-09-29T14:00:57.364627Z",
+    "duration_ms": 2.46,
+    "input_id": "evt-8510a856729d",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-3d8cd20c826d",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.370202Z",
+    "completed_at": "2026-09-29T14:00:57.370202Z",
+    "duration_ms": 0.15,
+    "input_id": "evt-8510a856729d",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-bdd62264d03e",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.377202Z",
+    "completed_at": "2026-09-29T14:00:57.377202Z",
+    "duration_ms": 3.21,
+    "input_id": "evt-dd01e2a4310e",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-7c62ae997e86",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.383320Z",
+    "completed_at": "2026-09-29T14:00:57.383320Z",
+    "duration_ms": 0.14,
+    "input_id": "evt-dd01e2a4310e",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-257fa481a674",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.388854Z",
+    "completed_at": "2026-09-29T14:00:57.388854Z",
+    "duration_ms": 2.64,
+    "input_id": "evt-b6bd8daca92d",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-fb22855729ad",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.395893Z",
+    "completed_at": "2026-09-29T14:00:57.395893Z",
+    "duration_ms": 0.13,
+    "input_id": "evt-b6bd8daca92d",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-699a29f6e370",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.402467Z",
+    "completed_at": "2026-09-29T14:00:57.402467Z",
+    "duration_ms": 3.13,
+    "input_id": "evt-a5628a45353d",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-bbf4ab460790",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.408468Z",
+    "completed_at": "2026-09-29T14:00:57.408468Z",
+    "duration_ms": 0.19,
+    "input_id": "evt-a5628a45353d",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-5518a6b9d8cd",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.417587Z",
+    "completed_at": "2026-09-29T14:00:57.417587Z",
+    "duration_ms": 2.59,
+    "input_id": "evt-2cb2a919e7e5",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-6397e1b47dc0",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.425131Z",
+    "completed_at": "2026-09-29T14:00:57.425131Z",
+    "duration_ms": 0.18,
+    "input_id": "evt-2cb2a919e7e5",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-d64be58722b9",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.436699Z",
+    "completed_at": "2026-09-29T14:00:57.436699Z",
+    "duration_ms": 4.19,
+    "input_id": "evt-3423870a216d",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-9dc222071cc1",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.443256Z",
+    "completed_at": "2026-09-29T14:00:57.443256Z",
+    "duration_ms": 0.19,
+    "input_id": "evt-3423870a216d",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-d4560a0abdb2",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.453829Z",
+    "completed_at": "2026-09-29T14:00:57.453829Z",
+    "duration_ms": 4.45,
+    "input_id": "evt-d30a51fc311e",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-ba25ca191b8e",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.460830Z",
+    "completed_at": "2026-09-29T14:00:57.460830Z",
+    "duration_ms": 0.21,
+    "input_id": "evt-d30a51fc311e",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-4c018910f3d7",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.471404Z",
+    "completed_at": "2026-09-29T14:00:57.471404Z",
+    "duration_ms": 3.95,
+    "input_id": "evt-9fd82afab56a",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-59f4b9fd64fa",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.477978Z",
+    "completed_at": "2026-09-29T14:00:57.477978Z",
+    "duration_ms": 0.18,
+    "input_id": "evt-9fd82afab56a",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-4d6539947de3",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.488562Z",
+    "completed_at": "2026-09-29T14:00:57.488562Z",
+    "duration_ms": 4.1,
+    "input_id": "evt-15e9b4972967",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-166b524b6ac4",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.495561Z",
+    "completed_at": "2026-09-29T14:00:57.495561Z",
+    "duration_ms": 0.2,
+    "input_id": "evt-15e9b4972967",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-89d76cef1226",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.504128Z",
+    "completed_at": "2026-09-29T14:00:57.504128Z",
+    "duration_ms": 2.82,
+    "input_id": "evt-c33b332ea689",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-b6b3b22ca4dd",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.509650Z",
+    "completed_at": "2026-09-29T14:00:57.509650Z",
+    "duration_ms": 0.14,
+    "input_id": "evt-c33b332ea689",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-64f4cec83fa8",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.516760Z",
+    "completed_at": "2026-09-29T14:00:57.516760Z",
+    "duration_ms": 2.57,
+    "input_id": "evt-c6a00e1b4292",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-8df1c6030865",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.521880Z",
+    "completed_at": "2026-09-29T14:00:57.521880Z",
+    "duration_ms": 0.12,
+    "input_id": "evt-c6a00e1b4292",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-56e0339f1190",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.529718Z",
+    "completed_at": "2026-09-29T14:00:57.529718Z",
+    "duration_ms": 3.04,
+    "input_id": "evt-cc45686d646f",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-544c038ef1d8",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.534901Z",
+    "completed_at": "2026-09-29T14:00:57.534901Z",
+    "duration_ms": 0.13,
+    "input_id": "evt-cc45686d646f",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-59cc2950e835",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.541553Z",
+    "completed_at": "2026-09-29T14:00:57.541553Z",
+    "duration_ms": 2.7,
+    "input_id": "evt-f68fc64f7c48",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-47cd94e5176f",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.546339Z",
+    "completed_at": "2026-09-29T14:00:57.546339Z",
+    "duration_ms": 0.13,
+    "input_id": "evt-f68fc64f7c48",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-7f448d6b86b2",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.553928Z",
+    "completed_at": "2026-09-29T14:00:57.553928Z",
+    "duration_ms": 2.6,
+    "input_id": "evt-0db2031c268e",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-d41049f77eac",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.557926Z",
+    "completed_at": "2026-09-29T14:00:57.557926Z",
+    "duration_ms": 0.15,
+    "input_id": "evt-0db2031c268e",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-3d0d11dbf268",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.566497Z",
+    "completed_at": "2026-09-29T14:00:57.566497Z",
+    "duration_ms": 3.09,
+    "input_id": "evt-b632e5bc4453",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-a3eacfb0e48a",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.571042Z",
+    "completed_at": "2026-09-29T14:00:57.571042Z",
+    "duration_ms": 0.15,
+    "input_id": "evt-b632e5bc4453",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-e0e2ee1da2cb",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.579423Z",
+    "completed_at": "2026-09-29T14:00:57.579423Z",
+    "duration_ms": 2.94,
+    "input_id": "evt-54bcf14d7324",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-0468cb3964b0",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.584952Z",
+    "completed_at": "2026-09-29T14:00:57.584952Z",
+    "duration_ms": 0.21,
+    "input_id": "evt-54bcf14d7324",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-846b9a005127",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.591482Z",
+    "completed_at": "2026-09-29T14:00:57.591482Z",
+    "duration_ms": 2.9,
+    "input_id": "evt-62483c94b7a2",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-511c133e0c77",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.599014Z",
+    "completed_at": "2026-09-29T14:00:57.599014Z",
+    "duration_ms": 0.15,
+    "input_id": "evt-62483c94b7a2",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-2e1cbe1b8bdf",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.606507Z",
+    "completed_at": "2026-09-29T14:00:57.606507Z",
+    "duration_ms": 3.83,
+    "input_id": "evt-87152f205dc1",
+    "output": "Normalized LOGIN_FAILED"
+  },
+  {
+    "id": "run-a5d70d9250d5",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:57.612882Z",
+    "completed_at": "2026-09-29T14:00:57.612882Z",
+    "duration_ms": 0.75,
+    "input_id": "evt-87152f205dc1",
+    "output": "BRUTE_FORCE"
+  },
+  {
+    "id": "run-7f38cb53521e",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.583021Z",
+    "completed_at": "2026-09-29T14:00:59.583021Z",
+    "duration_ms": 4.27,
+    "input_id": "evt-6f6141ec046c",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-aff9d5a1d057",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.591587Z",
+    "completed_at": "2026-09-29T14:00:59.591587Z",
+    "duration_ms": 0.59,
+    "input_id": "evt-6f6141ec046c",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-2476e5bf38c3",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.604136Z",
+    "completed_at": "2026-09-29T14:00:59.604136Z",
+    "duration_ms": 4.64,
+    "input_id": "evt-4c7b49e833ae",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-90f56e4e6fc1",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.613306Z",
+    "completed_at": "2026-09-29T14:00:59.613306Z",
+    "duration_ms": 0.12,
+    "input_id": "evt-4c7b49e833ae",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-ef39d3c909c8",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.622573Z",
+    "completed_at": "2026-09-29T14:00:59.622573Z",
+    "duration_ms": 4.36,
+    "input_id": "evt-0bc4580e952c",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-8213c1f4ff26",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.630311Z",
+    "completed_at": "2026-09-29T14:00:59.630311Z",
+    "duration_ms": 0.14,
+    "input_id": "evt-0bc4580e952c",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-ae373f1b54d0",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.640472Z",
+    "completed_at": "2026-09-29T14:00:59.640472Z",
+    "duration_ms": 4.03,
+    "input_id": "evt-05bd18c20f24",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-7fafe3b3732c",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.646481Z",
+    "completed_at": "2026-09-29T14:00:59.646481Z",
+    "duration_ms": 0.09,
+    "input_id": "evt-05bd18c20f24",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-69defeb07745",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.655477Z",
+    "completed_at": "2026-09-29T14:00:59.655477Z",
+    "duration_ms": 3.22,
+    "input_id": "evt-a71b1028c549",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-31ef0d37367f",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.661979Z",
+    "completed_at": "2026-09-29T14:00:59.661979Z",
+    "duration_ms": 0.11,
+    "input_id": "evt-a71b1028c549",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-9ba276efe3ec",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.671593Z",
+    "completed_at": "2026-09-29T14:00:59.671593Z",
+    "duration_ms": 3.92,
+    "input_id": "evt-7a6b4bfa4272",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-27c1b4721b69",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.680437Z",
+    "completed_at": "2026-09-29T14:00:59.680437Z",
+    "duration_ms": 0.66,
+    "input_id": "evt-7a6b4bfa4272",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-5710945d6f62",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.690390Z",
+    "completed_at": "2026-09-29T14:00:59.690390Z",
+    "duration_ms": 2.94,
+    "input_id": "evt-01457075958b",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-b1e5007cd597",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.696750Z",
+    "completed_at": "2026-09-29T14:00:59.696750Z",
+    "duration_ms": 0.09,
+    "input_id": "evt-01457075958b",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-1ac90ec8aafc",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.704604Z",
+    "completed_at": "2026-09-29T14:00:59.704604Z",
+    "duration_ms": 3.21,
+    "input_id": "evt-c8177c7cfed4",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-cfb62a7a1586",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.710576Z",
+    "completed_at": "2026-09-29T14:00:59.710576Z",
+    "duration_ms": 0.09,
+    "input_id": "evt-c8177c7cfed4",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-6d5739f455ee",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.720203Z",
+    "completed_at": "2026-09-29T14:00:59.720203Z",
+    "duration_ms": 4.85,
+    "input_id": "evt-0df2d3beb04c",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-3d66e04f7c06",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.728901Z",
+    "completed_at": "2026-09-29T14:00:59.728901Z",
+    "duration_ms": 0.16,
+    "input_id": "evt-0df2d3beb04c",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-a2120348a409",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.742456Z",
+    "completed_at": "2026-09-29T14:00:59.742456Z",
+    "duration_ms": 4.95,
+    "input_id": "evt-71b9d59ac069",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-9b1c0de7b938",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.749178Z",
+    "completed_at": "2026-09-29T14:00:59.749178Z",
+    "duration_ms": 0.11,
+    "input_id": "evt-71b9d59ac069",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-79a71289f0ff",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.762921Z",
+    "completed_at": "2026-09-29T14:00:59.762921Z",
+    "duration_ms": 5.59,
+    "input_id": "evt-9a0971e14ea8",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-2fdde13c1bc4",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.770674Z",
+    "completed_at": "2026-09-29T14:00:59.770674Z",
+    "duration_ms": 0.1,
+    "input_id": "evt-9a0971e14ea8",
+    "output": "PORT_SCAN"
+  },
+  {
+    "id": "run-1bad606e09bb",
+    "agent": "Log Collection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.780250Z",
+    "completed_at": "2026-09-29T14:00:59.780250Z",
+    "duration_ms": 3.93,
+    "input_id": "evt-2457ddb9c9fe",
+    "output": "Normalized PORT_PROBE"
+  },
+  {
+    "id": "run-29eb60b5d518",
+    "agent": "Threat Detection Agent",
+    "status": "completed",
+    "started_at": "2026-09-29T14:00:59.785476Z",
+    "completed_at": "2026-09-29T14:00:59.785476Z",
+    "duration_ms": 0.1,
+    "input_id": "evt-2457ddb9c9fe",
+    "output": "PORT_SCAN"
+  }
+]

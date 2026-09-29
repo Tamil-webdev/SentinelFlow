@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+dist/
+data/*.json
+.env
+apis.txt
+*.key
+*.keys
+gemini-keys*

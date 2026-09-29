@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: soc-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: soc-frontend }
+  template:
+    metadata:
+      labels: { app: soc-frontend }
+    spec:
+      containers:
+        - name: frontend
+          image: autonomous-soc-frontend:latest
+          imagePullPolicy: IfNotPresent
+          ports: [{ containerPort: 80 }]
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: soc-frontend
+spec:
+  type: NodePort
+  selector: { app: soc-frontend }
+  ports: [{ port: 80, targetPort: 80 }]
+

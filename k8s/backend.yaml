@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: soc-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: soc-backend }
+  template:
+    metadata:
+      labels: { app: soc-backend }
+    spec:
+      containers:
+        - name: backend
+          image: autonomous-soc-backend:latest
+          imagePullPolicy: IfNotPresent
+          ports: [{ containerPort: 8000 }]
+          env:
+            - { name: RESPONSE_MODE, value: simulation }
+            - { name: SOC_DATA_DIR, value: /data }
+            - { name: AI_MODE, value: gemini }
+            - name: GEMINI_MODEL
+              value: ""
+            - name: GEMINI_API_KEY_1
+              valueFrom:
+                secretKeyRef:
+                  name: gemini-secrets
+                  key: GEMINI_API_KEY_1
+                  optional: true
+          volumeMounts: [{ name: data, mountPath: /data }]
+      volumes: [{ name: data, emptyDir: {} }]
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: soc-backend
+spec:
+  selector: { app: soc-backend }
+  ports: [{ port: 8000, targetPort: 8000 }]

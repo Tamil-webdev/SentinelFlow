@@ -1,0 +1,29 @@
+[
+  {
+    "id": "rsp-71da0ca41420",
+    "action": "BLOCK_IP",
+    "target": "185.220.101.77",
+    "reason": "HIGH BRUTE_FORCE incident",
+    "timestamp": "2026-09-29T13:54:12.734651Z",
+    "status": "simulated",
+    "mode": "simulation"
+  },
+  {
+    "id": "rsp-3894757df99c",
+    "action": "BLOCK_IP",
+    "target": "45.83.64.19",
+    "reason": "MEDIUM PORT_SCAN incident",
+    "timestamp": "2026-09-29T13:54:50.929316Z",
+    "status": "simulated",
+    "mode": "simulation"
+  },
+  {
+    "id": "rsp-66fd51fa239a",
+    "action": "QUARANTINE_CONTAINER",
+    "target": "payments-api-7f8c9d",
+    "reason": "CRITICAL CONTAINER_COMPROMISE incident",
+    "timestamp": "2026-09-29T13:56:10.945926Z",
+    "status": "simulated",
+    "mode": "simulation"
+  }
+]

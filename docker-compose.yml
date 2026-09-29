@@ -1,0 +1,21 @@
+services:
+  backend:
+    build: ./backend
+    env_file:
+      - .env
+    environment:
+      RESPONSE_MODE: simulation
+      SOC_DATA_DIR: /data
+      CORS_ORIGINS: http://localhost:5173,http://localhost:8080
+    ports:
+      - "8000:8000"
+    volumes:
+      - soc-data:/data
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+volumes:
+  soc-data:
