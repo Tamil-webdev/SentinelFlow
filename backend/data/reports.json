@@ -19,5 +19,26 @@
     "generated_at": "2026-09-29 13:56:10.950897+00:00",
     "summary": "Container Compromise from 10.42.2.88 was assessed as CRITICAL risk and quarantine container.",
     "human_readable": "Incident: INC-CB96D5D2\nThreat: CONTAINER_COMPROMISE\nSource: 10.42.2.88\nTarget: payments-api-7f8c9d\nRisk: CRITICAL (81/100)\nResponse: QUARANTINE CONTAINER\nStatus: CONTAINED\nEvidence:\n- Unexpected privileged process activity in container\n- Outbound connection to known simulated command-and-control endpoint\n- Historical search found 1 events from 10.42.2.88."
+  },
+  {
+    "id": "RPT-87149FB6",
+    "incident_id": "INC-87149FB6",
+    "generated_at": "2026-09-30 05:30:56.967702+00:00",
+    "summary": "Brute Force from 68.37.67.115 was assessed as MEDIUM risk and monitor.",
+    "human_readable": "Incident: INC-87149FB6\nThreat: BRUTE_FORCE\nSource: 68.37.67.115\nTarget: admin_373\nRisk: MEDIUM (60/100)\nResponse: MONITOR\nStatus: MONITORING\nEvidence:\n- 20 failed login attempts from 68.37.67.115 within 60 seconds\n- Targeted account: admin_373\n- Historical search found 20 events from 68.37.67.115.\n- 20 events are security-relevant and form an escalation timeline."
+  },
+  {
+    "id": "RPT-C8CA4E7F",
+    "incident_id": "INC-C8CA4E7F",
+    "generated_at": "2026-09-30 05:33:34.159135+00:00",
+    "summary": "Port Scan from 195.191.124.172 was assessed as MEDIUM risk and block ip.",
+    "human_readable": "Incident: INC-C8CA4E7F\nThreat: PORT_SCAN\nSource: 195.191.124.172\nTarget: 10.20.0.10\nRisk: MEDIUM (52/100)\nResponse: BLOCK IP\nStatus: CONTAINED\nEvidence:\n- 10 destination ports accessed by 195.191.124.172 within 60 seconds\n- Rapid multi-port reconnaissance pattern\n- Historical search found 10 events from 195.191.124.172.\n- 10 events are security-relevant and form an escalation timeline."
+  },
+  {
+    "id": "RPT-E7905695",
+    "incident_id": "INC-E7905695",
+    "generated_at": "2026-09-30 05:33:52.914816+00:00",
+    "summary": "Container Compromise from 10.42.6.88 was assessed as CRITICAL risk and quarantine container.",
+    "human_readable": "Incident: INC-E7905695\nThreat: CONTAINER_COMPROMISE\nSource: 10.42.6.88\nTarget: payments-api-f456f3\nRisk: CRITICAL (81/100)\nResponse: QUARANTINE CONTAINER\nStatus: CONTAINED\nEvidence:\n- Unexpected privileged process activity in container\n- Outbound connection to known simulated command-and-control endpoint\n- Historical search found 1 events from 10.42.6.88."
   }
 ]

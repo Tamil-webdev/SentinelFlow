@@ -25,5 +25,32 @@
     "timestamp": "2026-09-29T13:56:10.945926Z",
     "status": "simulated",
     "mode": "simulation"
+  },
+  {
+    "id": "rsp-facc36dc1919",
+    "action": "MONITOR",
+    "target": "68.37.67.115",
+    "reason": "MEDIUM BRUTE_FORCE incident",
+    "timestamp": "2026-09-30T05:30:56.953619Z",
+    "status": "simulated",
+    "mode": "simulation"
+  },
+  {
+    "id": "rsp-09fa3c54a5d4",
+    "action": "BLOCK_IP",
+    "target": "195.191.124.172",
+    "reason": "MEDIUM PORT_SCAN incident",
+    "timestamp": "2026-09-30T05:33:34.147530Z",
+    "status": "simulated",
+    "mode": "simulation"
+  },
+  {
+    "id": "rsp-2b80d7230564",
+    "action": "QUARANTINE_CONTAINER",
+    "target": "payments-api-f456f3",
+    "reason": "CRITICAL CONTAINER_COMPROMISE incident",
+    "timestamp": "2026-09-30T05:33:52.905788Z",
+    "status": "simulated",
+    "mode": "simulation"
   }
 ]

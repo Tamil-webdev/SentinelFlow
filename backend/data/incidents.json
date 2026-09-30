@@ -624,5 +624,627 @@
       "summary": "Container Compromise from 10.42.2.88 was assessed as CRITICAL risk and quarantine container.",
       "human_readable": "Incident: INC-CB96D5D2\nThreat: CONTAINER_COMPROMISE\nSource: 10.42.2.88\nTarget: payments-api-7f8c9d\nRisk: CRITICAL (81/100)\nResponse: QUARANTINE CONTAINER\nStatus: CONTAINED\nEvidence:\n- Unexpected privileged process activity in container\n- Outbound connection to known simulated command-and-control endpoint\n- Historical search found 1 events from 10.42.2.88."
     }
+  },
+  {
+    "id": "INC-87149FB6",
+    "created_at": "2026-09-30T05:30:56.967702Z",
+    "updated_at": "2026-09-30T05:30:56.967702Z",
+    "status": "MONITORING",
+    "threat_type": "BRUTE_FORCE",
+    "detection_method": "rule-based",
+    "source_ip": "68.37.67.115",
+    "target": "admin_373",
+    "event_ids": [
+      "evt-002559199510",
+      "evt-46bea98370f6",
+      "evt-7d7ab938ad24",
+      "evt-a0fa4b3a023b",
+      "evt-f2f09c3ee8f5",
+      "evt-23c2588d564c",
+      "evt-9b9a78127c0d",
+      "evt-2f6cc6695971",
+      "evt-5bbcb614212d",
+      "evt-2954fa62998a",
+      "evt-e6bed42d0983",
+      "evt-5b0a3603e469",
+      "evt-3ea90e3a42ba",
+      "evt-f07fc1566a65",
+      "evt-85f2b0a07b5b",
+      "evt-aac3dddb012d",
+      "evt-9e15d3d06d05",
+      "evt-1a145d1cc766",
+      "evt-68a171561586",
+      "evt-0f7c822b196f"
+    ],
+    "risk": {
+      "score": 60,
+      "level": "MEDIUM",
+      "factors": [
+        {
+          "factor": "20 repeated failed logins",
+          "weight": 38
+        },
+        {
+          "factor": "Credential attack pattern",
+          "weight": 22
+        }
+      ]
+    },
+    "detection_evidence": [
+      "20 failed login attempts from 68.37.67.115 within 60 seconds",
+      "Targeted account: admin_373"
+    ],
+    "hunting_evidence": [
+      "Historical search found 20 events from 68.37.67.115.",
+      "20 events are security-relevant and form an escalation timeline."
+    ],
+    "timeline": [
+      {
+        "id": "evt-002559199510",
+        "timestamp": "2026-09-30T05:30:29.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-46bea98370f6",
+        "timestamp": "2026-09-30T05:30:30.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-7d7ab938ad24",
+        "timestamp": "2026-09-30T05:30:31.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-a0fa4b3a023b",
+        "timestamp": "2026-09-30T05:30:32.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-f2f09c3ee8f5",
+        "timestamp": "2026-09-30T05:30:33.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-23c2588d564c",
+        "timestamp": "2026-09-30T05:30:34.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-9b9a78127c0d",
+        "timestamp": "2026-09-30T05:30:35.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-2f6cc6695971",
+        "timestamp": "2026-09-30T05:30:36.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-5bbcb614212d",
+        "timestamp": "2026-09-30T05:30:37.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-2954fa62998a",
+        "timestamp": "2026-09-30T05:30:38.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-e6bed42d0983",
+        "timestamp": "2026-09-30T05:30:39.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-5b0a3603e469",
+        "timestamp": "2026-09-30T05:30:40.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-3ea90e3a42ba",
+        "timestamp": "2026-09-30T05:30:41.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-f07fc1566a65",
+        "timestamp": "2026-09-30T05:30:42.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-85f2b0a07b5b",
+        "timestamp": "2026-09-30T05:30:43.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-aac3dddb012d",
+        "timestamp": "2026-09-30T05:30:44.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-9e15d3d06d05",
+        "timestamp": "2026-09-30T05:30:45.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-1a145d1cc766",
+        "timestamp": "2026-09-30T05:30:46.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-68a171561586",
+        "timestamp": "2026-09-30T05:30:47.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-0f7c822b196f",
+        "timestamp": "2026-09-30T05:30:48.565978Z",
+        "source_ip": "68.37.67.115",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "LOGIN_FAILED",
+        "username": "admin_373",
+        "service": "identity-api",
+        "severity": "MEDIUM",
+        "raw_message": "Authentication failed for admin_373 from 68.37.67.115",
+        "source": "demo",
+        "metadata": {}
+      }
+    ],
+    "response": {
+      "id": "rsp-facc36dc1919",
+      "action": "MONITOR",
+      "target": "68.37.67.115",
+      "reason": "MEDIUM BRUTE_FORCE incident",
+      "timestamp": "2026-09-30T05:30:56.953619Z",
+      "status": "simulated",
+      "mode": "simulation"
+    },
+    "report": {
+      "id": "RPT-87149FB6",
+      "incident_id": "INC-87149FB6",
+      "generated_at": "2026-09-30T05:30:56.967702Z",
+      "summary": "Brute Force from 68.37.67.115 was assessed as MEDIUM risk and monitor.",
+      "human_readable": "Incident: INC-87149FB6\nThreat: BRUTE_FORCE\nSource: 68.37.67.115\nTarget: admin_373\nRisk: MEDIUM (60/100)\nResponse: MONITOR\nStatus: MONITORING\nEvidence:\n- 20 failed login attempts from 68.37.67.115 within 60 seconds\n- Targeted account: admin_373\n- Historical search found 20 events from 68.37.67.115.\n- 20 events are security-relevant and form an escalation timeline."
+    }
+  },
+  {
+    "id": "INC-C8CA4E7F",
+    "created_at": "2026-09-30T05:33:34.159135Z",
+    "updated_at": "2026-09-30T05:33:34.159135Z",
+    "status": "CONTAINED",
+    "threat_type": "PORT_SCAN",
+    "detection_method": "rule-based",
+    "source_ip": "195.191.124.172",
+    "target": "10.20.0.10",
+    "event_ids": [
+      "evt-e264bb3faab9",
+      "evt-c205ef17ef1a",
+      "evt-70693b89f95f",
+      "evt-7fa81a1be31a",
+      "evt-073771487844",
+      "evt-11e54c4fc88a",
+      "evt-7e385d7d3076",
+      "evt-e7cbcc90b2ce",
+      "evt-ae950043fa35",
+      "evt-fc54aefe6a97"
+    ],
+    "risk": {
+      "score": 52,
+      "level": "MEDIUM",
+      "factors": [
+        {
+          "factor": "Rapid multi-port reconnaissance",
+          "weight": 34
+        },
+        {
+          "factor": "Multiple exposed services targeted",
+          "weight": 18
+        }
+      ]
+    },
+    "detection_evidence": [
+      "10 destination ports accessed by 195.191.124.172 within 60 seconds",
+      "Rapid multi-port reconnaissance pattern"
+    ],
+    "hunting_evidence": [
+      "Historical search found 10 events from 195.191.124.172.",
+      "10 events are security-relevant and form an escalation timeline."
+    ],
+    "timeline": [
+      {
+        "id": "evt-e264bb3faab9",
+        "timestamp": "2026-09-30T05:33:15.802114Z",
+        "source_ip": "195.191.124.172",
+        "destination_ip": "10.20.0.10",
+        "destination_port": 21,
+        "event_type": "PORT_PROBE",
+        "username": null,
+        "service": "edge-gateway",
+        "severity": "LOW",
+        "raw_message": "Connection probe from 195.191.124.172 to port 21",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-c205ef17ef1a",
+        "timestamp": "2026-09-30T05:33:16.802114Z",
+        "source_ip": "195.191.124.172",
+        "destination_ip": "10.20.0.10",
+        "destination_port": 22,
+        "event_type": "PORT_PROBE",
+        "username": null,
+        "service": "edge-gateway",
+        "severity": "LOW",
+        "raw_message": "Connection probe from 195.191.124.172 to port 22",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-70693b89f95f",
+        "timestamp": "2026-09-30T05:33:17.802114Z",
+        "source_ip": "195.191.124.172",
+        "destination_ip": "10.20.0.10",
+        "destination_port": 23,
+        "event_type": "PORT_PROBE",
+        "username": null,
+        "service": "edge-gateway",
+        "severity": "LOW",
+        "raw_message": "Connection probe from 195.191.124.172 to port 23",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-7fa81a1be31a",
+        "timestamp": "2026-09-30T05:33:18.802114Z",
+        "source_ip": "195.191.124.172",
+        "destination_ip": "10.20.0.10",
+        "destination_port": 25,
+        "event_type": "PORT_PROBE",
+        "username": null,
+        "service": "edge-gateway",
+        "severity": "LOW",
+        "raw_message": "Connection probe from 195.191.124.172 to port 25",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-073771487844",
+        "timestamp": "2026-09-30T05:33:19.802114Z",
+        "source_ip": "195.191.124.172",
+        "destination_ip": "10.20.0.10",
+        "destination_port": 53,
+        "event_type": "PORT_PROBE",
+        "username": null,
+        "service": "edge-gateway",
+        "severity": "LOW",
+        "raw_message": "Connection probe from 195.191.124.172 to port 53",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-11e54c4fc88a",
+        "timestamp": "2026-09-30T05:33:20.802114Z",
+        "source_ip": "195.191.124.172",
+        "destination_ip": "10.20.0.10",
+        "destination_port": 80,
+        "event_type": "PORT_PROBE",
+        "username": null,
+        "service": "edge-gateway",
+        "severity": "LOW",
+        "raw_message": "Connection probe from 195.191.124.172 to port 80",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-7e385d7d3076",
+        "timestamp": "2026-09-30T05:33:21.802114Z",
+        "source_ip": "195.191.124.172",
+        "destination_ip": "10.20.0.10",
+        "destination_port": 110,
+        "event_type": "PORT_PROBE",
+        "username": null,
+        "service": "edge-gateway",
+        "severity": "LOW",
+        "raw_message": "Connection probe from 195.191.124.172 to port 110",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-e7cbcc90b2ce",
+        "timestamp": "2026-09-30T05:33:22.802114Z",
+        "source_ip": "195.191.124.172",
+        "destination_ip": "10.20.0.10",
+        "destination_port": 443,
+        "event_type": "PORT_PROBE",
+        "username": null,
+        "service": "edge-gateway",
+        "severity": "LOW",
+        "raw_message": "Connection probe from 195.191.124.172 to port 443",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-ae950043fa35",
+        "timestamp": "2026-09-30T05:33:23.802114Z",
+        "source_ip": "195.191.124.172",
+        "destination_ip": "10.20.0.10",
+        "destination_port": 445,
+        "event_type": "PORT_PROBE",
+        "username": null,
+        "service": "edge-gateway",
+        "severity": "LOW",
+        "raw_message": "Connection probe from 195.191.124.172 to port 445",
+        "source": "demo",
+        "metadata": {}
+      },
+      {
+        "id": "evt-fc54aefe6a97",
+        "timestamp": "2026-09-30T05:33:24.802114Z",
+        "source_ip": "195.191.124.172",
+        "destination_ip": "10.20.0.10",
+        "destination_port": 3306,
+        "event_type": "PORT_PROBE",
+        "username": null,
+        "service": "edge-gateway",
+        "severity": "LOW",
+        "raw_message": "Connection probe from 195.191.124.172 to port 3306",
+        "source": "demo",
+        "metadata": {}
+      }
+    ],
+    "response": {
+      "id": "rsp-09fa3c54a5d4",
+      "action": "BLOCK_IP",
+      "target": "195.191.124.172",
+      "reason": "MEDIUM PORT_SCAN incident",
+      "timestamp": "2026-09-30T05:33:34.147530Z",
+      "status": "simulated",
+      "mode": "simulation"
+    },
+    "report": {
+      "id": "RPT-C8CA4E7F",
+      "incident_id": "INC-C8CA4E7F",
+      "generated_at": "2026-09-30T05:33:34.159135Z",
+      "summary": "Port Scan from 195.191.124.172 was assessed as MEDIUM risk and block ip.",
+      "human_readable": "Incident: INC-C8CA4E7F\nThreat: PORT_SCAN\nSource: 195.191.124.172\nTarget: 10.20.0.10\nRisk: MEDIUM (52/100)\nResponse: BLOCK IP\nStatus: CONTAINED\nEvidence:\n- 10 destination ports accessed by 195.191.124.172 within 60 seconds\n- Rapid multi-port reconnaissance pattern\n- Historical search found 10 events from 195.191.124.172.\n- 10 events are security-relevant and form an escalation timeline."
+    }
+  },
+  {
+    "id": "INC-E7905695",
+    "created_at": "2026-09-30T05:33:52.914816Z",
+    "updated_at": "2026-09-30T05:33:52.914816Z",
+    "status": "CONTAINED",
+    "threat_type": "CONTAINER_COMPROMISE",
+    "detection_method": "rule-based",
+    "source_ip": "10.42.6.88",
+    "target": "payments-api-f456f3",
+    "event_ids": [
+      "evt-eb03177c6aac"
+    ],
+    "risk": {
+      "score": 81,
+      "level": "CRITICAL",
+      "factors": [
+        {
+          "factor": "Suspicious privileged container activity",
+          "weight": 50
+        },
+        {
+          "factor": "Potential command-and-control communication",
+          "weight": 31
+        }
+      ]
+    },
+    "detection_evidence": [
+      "Unexpected privileged process activity in container",
+      "Outbound connection to known simulated command-and-control endpoint"
+    ],
+    "hunting_evidence": [
+      "Historical search found 1 events from 10.42.6.88."
+    ],
+    "timeline": [
+      {
+        "id": "evt-eb03177c6aac",
+        "timestamp": "2026-09-30T05:33:52.811520Z",
+        "source_ip": "10.42.6.88",
+        "destination_ip": "10.20.0.10",
+        "destination_port": null,
+        "event_type": "CONTAINER_SUSPICIOUS_ACTIVITY",
+        "username": null,
+        "service": "payments-api",
+        "severity": "CRITICAL",
+        "raw_message": "Unexpected privileged process spawned inside payments-api",
+        "source": "demo",
+        "metadata": {
+          "container": "payments-api-f456f3"
+        }
+      }
+    ],
+    "response": {
+      "id": "rsp-2b80d7230564",
+      "action": "QUARANTINE_CONTAINER",
+      "target": "payments-api-f456f3",
+      "reason": "CRITICAL CONTAINER_COMPROMISE incident",
+      "timestamp": "2026-09-30T05:33:52.905788Z",
+      "status": "simulated",
+      "mode": "simulation"
+    },
+    "report": {
+      "id": "RPT-E7905695",
+      "incident_id": "INC-E7905695",
+      "generated_at": "2026-09-30T05:33:52.914816Z",
+      "summary": "Container Compromise from 10.42.6.88 was assessed as CRITICAL risk and quarantine container.",
+      "human_readable": "Incident: INC-E7905695\nThreat: CONTAINER_COMPROMISE\nSource: 10.42.6.88\nTarget: payments-api-f456f3\nRisk: CRITICAL (81/100)\nResponse: QUARANTINE CONTAINER\nStatus: CONTAINED\nEvidence:\n- Unexpected privileged process activity in container\n- Outbound connection to known simulated command-and-control endpoint\n- Historical search found 1 events from 10.42.6.88."
+    }
   }
 ]
